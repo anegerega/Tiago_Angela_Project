@@ -1,0 +1,58 @@
+/* BODY */
+/*  */
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 2;
+	padding-top: 10px;
+}
+/*  */
+/* NAVBAR */
+/*  */
+
+#navbar {
+	width: 350px;
+	border: 0;
+	position: fixed;
+	height: 100%;
+	border-right: black solid 4px;
+	font-size: 1.7em;
+	background-color: rgb(214, 206, 206, 0.1);
+}
+
+#navbar header {
+	background-color: rgba(119, 13, 13, 0.609);
+	color: white;
+}
+#navbar header span {
+	font-size: 1.4em;
+}
+
+#navbar ul {
+	padding: 0;
+}
+
+#navbar li {
+	border-top: black solid 3px;
+
+	list-style: none;
+}
+#navbar li:hover {
+	font-size: 1.28em;
+}
+.nav-link {
+	text-decoration: none;
+	color: gray;
+}
+/*  */
+/* MAIN */
+/*  */
+#main-doc {
+	padding-left: 360px;
+}
+.main-section {
+	font-size: 1.2em;
+}
+.main-section header {
+	font-size: 2em;
+	text-decoration: underline;
+}
