@@ -2,19 +2,22 @@
 /*  */
 body {
 	font-family: 'Raleway', sans-serif;
-	line-height: 2;
-	padding-top: 10px;
+	line-height: 2;	
+	font-size: 1.2rem;
 }
 /*  */
 /* NAVBAR */
 /*  */
-
+.section-header{
+	color: rgba(119, 13, 13, 0.609);
+	text-decoration: none;
+}
 #navbar {
 	width: 350px;
 	border: 0;
 	position: fixed;
 	height: 100%;
-	border-right: black solid 4px;
+	border-right:#23527c solid 1px;
 	font-size: 1.7em;
 	background-color: rgb(214, 206, 206, 0.1);
 }
@@ -22,6 +25,7 @@ body {
 #navbar header {
 	background-color: rgba(119, 13, 13, 0.609);
 	color: white;
+	padding-left: 10px;
 }
 #navbar header span {
 	font-size: 1.4em;
@@ -32,17 +36,24 @@ body {
 }
 
 #navbar li {
-	border-top: black solid 3px;
+	border-top: #23527c solid 1px;
 
 	list-style: none;
 }
 #navbar li:hover {
-	font-size: 1.28em;
-}
-.nav-link {
+	color: #23527c;
 	text-decoration: none;
-	color: gray;
+
 }
+.nav-link:hover{
+	text-decoration: none;
+}
+	
+.nav-link {
+	color: gray;
+	padding-left: 10px;
+}
+
 /*  */
 /* MAIN */
 /*  */
@@ -51,8 +62,31 @@ body {
 }
 .main-section {
 	font-size: 1.2em;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
 }
 .main-section header {
-	font-size: 2em;
-	text-decoration: underline;
+	font-size: 2em;	
+}
+
+@media only screen and (max-width: 600px){
+
+	#navbar {
+		width: 18%;
+		border: 0;
+		height: 100%;
+		border-right:#23527c solid 1px;
+		font-size: 0.5em;
+		background-color: rgb(214, 206, 206, 0.1);
+	}
+	.main-section {
+		font-size: 0.7em;
+		width: 80%;
+		text-align: justify;
+	}
+	.main-section header {
+		font-size: 1em;	
+	}
+	
 }
